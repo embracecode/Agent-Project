@@ -12,5 +12,8 @@ router.post('/wxlogin', user.wxLogin)
 const chat = require('./controller/chat')
 // 对话流式输出
 router.post('/chatmessage', chat.chatMessage)
+// 图片解释
+router.post('/upload', require('./controller/img').upload)
+
 
 module.exports = router
