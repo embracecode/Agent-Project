@@ -14,6 +14,8 @@ const chat = require('./controller/chat')
 router.post('/chatmessage', chat.chatMessage)
 // 图片解释
 router.post('/upload', require('./controller/img').upload)
+// 文本生图
+router.post('/textgenimg', require('./controller/textgenimg').textgenimg)
 
 
 module.exports = router
