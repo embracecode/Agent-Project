@@ -3,7 +3,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import 'amfe-flexible' // 动态改变跟字体大小
 
-import router from './router'
+import {
+    router,
+} from './router'
 
 import { Button,
     Image as VanImage,

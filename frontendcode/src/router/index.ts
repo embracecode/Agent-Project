@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 
+
 const routes = [
     {
         path: '/',
@@ -23,4 +24,6 @@ const router = createRouter({
     routes
 })
 
-export default router
+export {
+    router
+}
